@@ -1,4 +1,4 @@
-{ self, poetry2nix }:
+{ self, poetry2nix, ... }:
 poetry2nix.mkPoetryApplication {
   projectDir = self;
 }
